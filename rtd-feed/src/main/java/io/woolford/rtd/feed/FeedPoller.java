@@ -24,6 +24,7 @@ public class FeedPoller {
 
     private final Logger logger = LoggerFactory.getLogger(this.getClass());
 
+    
     @Value("${rtd.username}")
     private String rtdUsername;
 
